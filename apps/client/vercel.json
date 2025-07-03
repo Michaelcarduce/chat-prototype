@@ -1,5 +1,0 @@
-{
-  "installCommand": "echo \"Install handled in build script\"",
-  "buildCommand": "chmod +x ./scripts/vercel-build.sh && ./scripts/vercel-build.sh",
-  "outputDirectory": ".next"
-}
