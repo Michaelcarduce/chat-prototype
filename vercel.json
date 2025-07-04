@@ -1,7 +1,10 @@
 {
-  "build": {
-    "env": {
-      "NODE_VERSION": "18"
+  "functions": {
+    "apps/client/**/*.ts": {
+      "runtime": "nodejs18.x"
     }
-  }
+  },
+  "buildCommand": "pnpm build",
+  "installCommand": "pnpm install",
+  "framework": "nextjs"
 }
