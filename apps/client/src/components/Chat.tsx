@@ -46,7 +46,7 @@ export default function Chat() {
 
   useEffect(() => {
     if (isJoined && name) {
-      const newSocket = io("http://localhost:5001");
+      const newSocket = io("https://chat-prototype-api.onrender.com");
       setSocket(newSocket);
 
       // Join the chat
