@@ -33,7 +33,6 @@
     "typescript": "^5"
   },
   "engines": {
-    "node": ">=18",
-    "pnpm": ">=8.6.12"
+    "node": ">=18"
   }
 }
